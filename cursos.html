@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis cursos de Programacion web</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cursos.css">
+    <script defer src="JS/JS.js"></script>
+</head>
+<body>
+  
+    <div id="cursor"></div> 
+ <script type="text/javascript">
+       var cursor = document.getElementById('cursor');
+             document.addEventListener('mousemove'
+   , function(e){
+     var x = e.clientX;
+     var y = e.clientY;
+     cursor.style.left = x + "px";
+     cursor.style.top = y + "px";
+   })
+  </script>
+  <header>
+        <div class="caja">
+            <h1 class="h1"><img src="imagenes/cursos.jpg"></h1>
+            <nav>
+                <ul>
+                    <li><a href="Index.html" target="_blank">Portafolio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <ul class="cursos">
+            <li>
+                <h2>Udemy</h2>
+                <a href="https://www.udemy.com/share/104fMw3@RMm-9dBqQLr5cOJ48B3qnMYV0j5udo_eLQpDsABawDhCAeG-O6vFvfEoqXnpiNnl_A==/" target="_blank"><title> Udemy</title>
+                    <img class="udemy" src="imagenes/Udemy-Emblem.png"  alt="Udemy">
+                </a>
+                <p class="p"> Aprender un poco cada día marca la diferencia. Hay estudios que muestran que los estudiantes
+                     que hacen del aprendizaje un hábito tienen una mayor probabilidad de alcanzar sus objetivos
+                     Realize un curso basico de programacion,HTML, CSS, JAVASCRIPT</p>
+                
+            </li>
+            <li>
+                <h2>Certiprof</h2>
+                <a href="https://certiprof.com/" target="_blank"><title> Certiprof</title>
+                    <img class="Certiprof" src="imagenes/Certiprof.png"  alt="Certiprof">
+                </a>
+                <p class="p">Única certificación de Scrum Master firmada por Jeff Sutherland, el creador de Scrum
+                    Técnicas y métricas que usan los Scrum Masters para mejorar la felicidad y el rendimiento del equipo.
+                </p>
+            </li>
+            <li>
+                <h2>Alura</h2>
+                <a href="https://app.aluracursos.com/user/luzmamosquera1955" target="_blank">
+                    <img class="alura" src="imagenes/Alura Latam2.png" alt="Alura">
+                </a>
+                <p class="p">en Alura he estudiado desde conceptos basicos de Programacion HTML, CSS, JAVASCRIPT y LINKEDIN, 
+                    permitiendo me tambien realizar otro cursos, como Fronted
+                    tengo programa para continuar estudiando y aprendiendo, mientras tengo oportunidad para trabajar.
+            </li>
+        </ul>
+    </main>
+  
+    <footer class="footer">
+              <h2> Certificados </h2>
+        <ul class="cursos">
+            <li>
+                <h2> Certificado Udemy </h2>
+               <img class="udemy" src="imagenes/CERTIFICADO OF COMPLETO JAVASCRIPT DE CERO A EXPERTO_page-0001.jpg" alt=" Certificado Udemy">
+    
+            </li>
+            <li>
+                <h2> Scrum Foundation </h2>
+                <img class="Certiprof" src="imagenes/Certificate_page-0001.jpg" alt="Scrum Foundation">
+                
+            </li>
+            <li>
+                <h2> Alura Latam </h2>
+                <a href="https://app.aluracursos.com/user/luzmamosquera1955/fullCertificate/0364b795d55868ac6d7ec09277c0fa61">
+                    <img class="Certipro-Alura" src="imagenes/certificado de Alura latan.jpg" alt="Alura Latam ">
+                </a>
+               
+                
+            </li>
+        </ul>
+
+    </footer> 
+   
+</body>
+</html>
