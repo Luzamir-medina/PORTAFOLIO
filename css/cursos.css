@@ -139,3 +139,46 @@ font-size: large;
     transform: scale(0.7);
     transition:all .2s linear; 
   }
+  @media screen and (prefers-color-scheme:light){
+    :root {
+      --blanco: #181818;
+      --blanco-2: rgba(0,0,0,.2);
+      --negro: #e0e0e0;
+      --negro-5: rgba(255, 255, 255, 0.5);
+      --negro-7: rgba(255, 255, 255, 0.75);
+    }
+    #cursor{
+        width: 3em;
+        height: 3em;
+        background-color: rgb(246, 232, 232);
+        position: fixed;
+        z-index: 3;
+        pointer-events: fill;
+        border-radius: 100%;
+        mix-blend-mode: difference;
+        cursor:disguise;
+    }
+    #cursor.mini{
+        transform: scale(0.7);
+        transition:all .3s linear; 
+      }
+    .caja{
+        width: 400px;
+        height: 350px;
+        border: 0;
+        margin: 20px 50px;
+        
+    }
+    .cursos{
+        display:block;
+        width:auto;
+        margin: 0;
+        
+    }
+    .p{
+        font-family: Georgia, 'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+  }
+    
+  
